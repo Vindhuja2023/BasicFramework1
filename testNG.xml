@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="com.naveenautomationlabs.utils.CustomListener" />
+		<listener
+			class-name="com.naveenautomationlabs.utils.TransformerForRetry" />
+		<listener
+			class-name="com.naveenautomationlabs.utils.ExtentReportListener" />
+
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.naveenautomationlabs.testPages.LoginPageTest" />
+			<class
+				name="com.naveenautomationlabs.testPages.AccountPageTest" />
+			<class
+				name="com.naveenautomationlabs.testPages.AddressBookPageTest" />
+			<class
+				name="com.naveenautomationlabs.testPages.EditUserInfoPageTest" />
+			<class
+				name="com.naveenautomationlabs.testPages.WishListPageTest" />
+			<class
+				name="com.naveenautomationlabs.testPages.ReturnsPageTest" />
+			<class
+				name="com.naveenautomationlabs.testPages.DownloadsPageTest" />
+			<class name="com.naveenautomationlabs.testPages.LogOutPageTest" />
+			<class
+				name="com.naveenautomationlabs.testPages.ForgottenPasswordPageTest" />
+
+			<class
+				name="com.naveenautomationlabs.testPages.TransactionsPageTest" />
+			<class
+				name="com.naveenautomationlabs.testPages.RecurringPaymentsPageTest" />
+			<class
+				name="com.naveenautomationlabs.testPages.RewardPointsPageTest" />
+			<class
+				name="com.naveenautomationlabs.testPages.OrderHistoryPageTest" />
+
+
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
