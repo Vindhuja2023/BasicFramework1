@@ -32,7 +32,7 @@ public class TestBase {
 
 	private final Browser DEFAULT_BROWSER = Browser.CHROME;
 	private final Environment URL = Environment.PROD;
-	private static final boolean RUN_ON_GRID = false;
+	private static final boolean RUN_ON_GRID = true;
 
 	public static Logger logger;
 	public WebDriverEvents events;
